@@ -3,8 +3,9 @@
 function RepeatN(string, n) {
 	var str = '';
 	for (var i = 0; i < n; i++) {
-		str = string + ' ';
+		str += string + ' ';
 	}
+	return str;
 }
 
 
